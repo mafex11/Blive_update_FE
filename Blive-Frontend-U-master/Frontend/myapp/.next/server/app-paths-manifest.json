@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/startStream/page": "app/startStream/page.js",
+  "/api/create-stream/route": "app/api/create-stream/route.js",
+  "/api/stream-status/route": "app/api/stream-status/route.js",
+  "/api/update-stream-status/route": "app/api/update-stream-status/route.js"
+}

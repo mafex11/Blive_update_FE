@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    font-family: "Source Code Pro", monospace;
+}
+nav{
+    background-color: var(--white);
+    position: fixed;
+    left: 50%;
+    translate: -50%;
+    top: 20px;
+    font-weight: 600;
+    color: var(--white);
+    width: 70rem;
+    padding: 0px 20px;
+    border-radius: 50px;
+    letter-spacing: -1px;
+    background: rgba(255, 255, 255, 0.795);
+    border-radius: 50px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.title{
+    color: var(--black);
+    cursor: pointer;
+    transition: 0.09s ease-in-out;
+}
+.title:hover{
+    color: var(--blue);
+}
+
+.metabutton{
+    background-color: red;
+    border-radius: 50px;
+    transition: 0.07s ease-in-out;
+}
+.startbutton{
+    background-color: var(--black);
+    border-radius: 50px;
+    transition: 0.07s ease-in-out;
+
+}
+.watchbutton{
+    background-color: var(--blue);
+    border-radius: 50px;
+    transition: 0.07s ease-in-out;
+
+}
+.watchbutton:hover,.startbutton:hover{
+    transform: scale(1.1);
+
+}
+
+
